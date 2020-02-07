@@ -1,38 +1,160 @@
-.App {
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-container {
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-content {
+  margin: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading {
+  font-size: 4.5rem;
+  color: #3F51B5;
+  margin-top: 8%;
+  padding-bottom: 2%;
+}
+
+.home-paragraph {
+  font-size: 1.5rem;
+  padding-bottom: 2.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about-img {
+  max-height: 500px;
+  border-radius: 30px;
+  margin: 7% 0 0 7%;
+}
+
+.about-wrap {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  margin: 5% 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.about-paragraph {
+  padding: 2.5%;
+  line-height: 2rem;
+  font-size: 1.25rem;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.project-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 3% 5% 3%;
+}
+
+.student-artco {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 7% 0;
+}
+
+.project-img {
+  max-height: 400px;
+}
+
+.student-artco-right {
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+.project-title {
+  font-size: 2.25rem;
+  margin-bottom: 3%;
+  color: #3F51B5;
+}
+
+.project-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px 20px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.wanderlust {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 7% 0;
+}
+
+.wanderlust-left {
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.park-passport {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 7% 0;
+}
+
+.park-passport-right {
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .about-wrap {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .about-img {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 15%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #home-btn {
+    display: none;
+  }
+
+  .home-heading {
+    font-size: 3rem;
+    color: #3F51B5;
+    margin-top: 20%;
+    padding-bottom: 4%;
+  }
+
+  .home-paragraph {
+    font-size: 1.25rem;
+    padding-bottom: 5%;
+  }
+
+  .about-paragraph {
+    padding: 2.5%;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .student-artco-right {
+    margin: 5%;
+  }
+
+  .wanderlust-left {
+    margin: 5%;
+  }
+
+  .park-passport-right {
+    margin: 5%;
+  }
+
+  .project-wrap {
+    overflow-x: hidden;
+  }
+
+  .project-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .project-img {
+    max-height: 300px;
+    margin-left: 8%;
   }
 }
