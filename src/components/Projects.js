@@ -49,6 +49,8 @@ const Projects = () => {
             <div className="student-artco-right">
               <h2 className="project-title">Student ArtCo</h2>
               <p className="about-paragraph">
+                <em>Finalist at Lambda School Labs Demo Day 2020</em>
+                <br /> <br />
                 Student ArtCo is a platform that facilitates fund-raising for
                 school's art programs by helping to sell art made by students.
                 This web appplication was built over an 8 week period by a
@@ -92,13 +94,13 @@ const Projects = () => {
             <div className="wanderlust-left">
               <h2 className="project-title">Wanderlust</h2>
               <p className="about-paragraph">
-                Wanderlust helps tour guides advertise trips
-                they offer and display their touring
-                resume. Users can login, create, and update their trips. There is an
-                on-boarding process for a new general user and for an organizer.
-                Users can search for and find experiences while organizers have
-                the ability to setup a trip and edit or delete it. On this
-                project, Ian built the backend with 1 other developer.
+                Wanderlust helps tour guides advertise trips they offer and
+                display their touring resume. Users can login, create, and
+                update their trips. There is an on-boarding process for a new
+                general user and for an organizer. Users can search for and find
+                experiences while organizers have the ability to setup a trip
+                and edit or delete it. Over 4 days, Ian built the backend with 1
+                other developer.
                 <br /> <br />
                 Tech Stack: React, React Router, Styled Components, Bootstrap,
                 Reactstrap, Redux, Thunk, Axios, NodeJS, Express, Knex,
