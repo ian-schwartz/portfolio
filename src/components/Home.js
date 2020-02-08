@@ -7,12 +7,13 @@ import { makeStyles } from "@material-ui/core/styles";
 import Nav from "./Nav";
 import Footer from "./Footer";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   iconLink: {
     fontSize: "3rem",
-    margin: "0 .5%"
+    margin: "0 .5%",
+    [theme.breakpoints.down("sm")]: { fontSize: "2rem" }
   }
-});
+}));
 
 const Home = () => {
   const classes = useStyles();

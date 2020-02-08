@@ -6,15 +6,16 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
 import CodeIcon from "@material-ui/icons/Code";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   link: {
     textDecoration: "none"
   },
   button: {
     fontSize: "1.25rem",
-    padding: "0 15px"
+    padding: "0 15px",
+    [theme.breakpoints.down("sm")]: { fontSize: "1rem" }
   }
-});
+}));
 
 const Nav = () => {
   const classes = useStyles();
