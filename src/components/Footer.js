@@ -8,13 +8,14 @@ const useStyles = makeStyles({
     position: "fixed",
     bottom: "0",
     width: "100%",
-    height: "2.25%",
+    height: "2%",
     backgroundColor: "#3f51b5"
   },
   text: {
     fontFamily: "Source Sans Pro",
-    fontSize: "1rem",
-    color: "#000"
+    fontSize: ".75rem",
+    color: "#000",
+    padding: ".75px"
   }
 });
 
