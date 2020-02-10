@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import photo from "../assets/IMG_0785.jpg";
+import photo from "../assets/IMG_1604.jpg";
 import Footer from "./Footer";
 
 const About = () => {
