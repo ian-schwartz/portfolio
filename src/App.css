@@ -148,6 +148,10 @@
     margin: 5%;
   }
 
+  .park-passport-left {
+    display: none;
+  }
+
   .project-wrap {
     overflow-x: hidden;
   }

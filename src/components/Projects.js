@@ -53,7 +53,7 @@ const Projects = () => {
                 <br /> <br />
                 Student ArtCo is a platform that facilitates fund-raising for
                 school's art programs by helping to sell art made by students.
-                This web appplication was built over an 8 week period by a
+                This web application was built over an 8 week period by a
                 remote, cross-functional team of 5 developers. Ian worked as a
                 full-stack developer, contributing to both the front and
                 backend.
@@ -74,7 +74,7 @@ const Projects = () => {
                 className={classes.button}
                 color="primary"
                 variant="outlined"
-                href="https://www.github.com/Lambda-School-Labs/student-art-collection-fe"
+                href="https://github.com/ian-schwartz/student-art-collection-fe"
                 target="_blank"
               >
                 Code

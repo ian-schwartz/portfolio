@@ -16,9 +16,7 @@ const About = () => {
             professional poker player. In his time playing, he built valuable
             skills in problem solving and analytical thinking. His passion for
             technology eventually led to becoming engrossed in the world of web
-            development. Over the past year, Ian has built a variety of projects
-            both individually and within teams, working in agile environments
-            with developers across various disciplines.
+            development. Ian takes pride in being a dedicated and reliable team player, who thrives in collaborative environments and has a strong will to discover solutions to the problems faced. Over the past year, Ian has built a variety of projects both individually and within teams, working with developers across various disciplines.
           </p>
         </div>
         <img src={photo} className="about-img" alt="Ian" />
