@@ -59,7 +59,7 @@ const Projects = () => {
                 backend.
                 <br /> <br />
                 Tech Stack: React, MaterialUI, Styled Components, Context API,
-                Firebase Auth, NodeJS, GraphQL, Apollo, SQLite3, Postgres
+                Firebase Auth, Node.js, GraphQL, Apollo, SQLite3, Postgres
               </p>
               <Button
                 className={classes.button}
@@ -103,8 +103,8 @@ const Projects = () => {
                 other developer.
                 <br /> <br />
                 Tech Stack: React, React Router, Styled Components, Bootstrap,
-                Reactstrap, Redux, Thunk, Axios, NodeJS, Express, Knex,
-                BCryptJS, JSON Web Token, SQLite3, Postgres
+                Reactstrap, Redux, Thunk, Axios, Node.js, Express, Knex,
+                BCrypt, JWT, SQLite3, Postgres
               </p>
               <Button
                 className={classes.button}
@@ -152,8 +152,8 @@ const Projects = () => {
                 of this application.
                 <br /> <br />
                 Tech Stack: React, React Router, Styled Components, Bootstrap,
-                Reactstrap, Context API, Axios, Formik, Yup, NodeJS, Express,
-                Knex, BCryptJS, JSON Web Token, SQLite3, Postgres
+                Reactstrap, Context API, Axios, Formik, Yup, Node.js, Express,
+                Knex, BCrypt, JWT, SQLite3, Postgres
               </p>
               <Button
                 className={classes.button}
