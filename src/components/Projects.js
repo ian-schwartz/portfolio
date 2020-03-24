@@ -53,9 +53,9 @@ const Projects = () => {
                 <br /> <br />
                 Student ArtCo is a platform that facilitates fund-raising for
                 school's art programs by helping to sell art made by students.
-                This web application was built over an 8 week period by a
-                remote, cross-functional team of 5 developers. Ian worked as a
-                full-stack developer, contributing to both the front and
+                This web application was built over an eight week period by a
+                remote, cross-functional team of five developers. Ian worked as
+                a full-stack developer, contributing to both the front and
                 backend.
                 <br /> <br />
                 Tech Stack: React, MaterialUI, Styled Components, Context API,
@@ -99,12 +99,12 @@ const Projects = () => {
                 update their trips. There is an on-boarding process for a new
                 general user and for an organizer. Users can search for and find
                 experiences while organizers have the ability to setup a trip
-                and edit or delete it. Over 4 days, Ian built the backend with 1
-                other developer.
+                and edit or delete it. Over four days, Ian built the backend
+                with one other developer.
                 <br /> <br />
                 Tech Stack: React, React Router, Styled Components, Bootstrap,
-                Reactstrap, Redux, Thunk, Axios, Node.js, Express, Knex,
-                BCrypt, JWT, SQLite3, Postgres
+                Reactstrap, Redux, Thunk, Axios, Node.js, Express, Knex, BCrypt,
+                JWT, SQLite3, Postgres
               </p>
               <Button
                 className={classes.button}
@@ -147,9 +147,9 @@ const Projects = () => {
                 Park Passport is a web application that allows users to create,
                 edit, and delete listings and reviews for parks, as well as
                 search them. This project was built in a cross discipline team
-                over the course of 4 days. Ian worked with a team of 3 other
-                React developers in order to create the frontend functionality
-                of this application.
+                over the course of four days. Ian worked as a lead React
+                developer in order to create the frontend functionality of this
+                application.
                 <br /> <br />
                 Tech Stack: React, React Router, Styled Components, Bootstrap,
                 Reactstrap, Context API, Axios, Formik, Yup, Node.js, Express,
