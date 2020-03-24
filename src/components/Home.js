@@ -11,7 +11,12 @@ const useStyles = makeStyles(theme => ({
   iconLink: {
     fontSize: "3rem",
     margin: "0 .5%",
-    [theme.breakpoints.down("sm")]: { fontSize: "2rem" }
+    [theme.breakpoints.down("sm")]: { fontSize: "2rem" },
+    transition: "transform .3s",
+    "&:hover": {
+      transform: "scale(1.5)",
+      color: "#342056"
+    }
   }
 }));
 

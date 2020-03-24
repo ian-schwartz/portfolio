@@ -14,6 +14,12 @@
   font-size: 4.5rem;
   color: #3F51B5;
   margin: 5% 0;
+  transition: transform .6s;
+}
+
+.heading:hover {
+    transform: scale(1.25);
+    color: #342056;
 }
 
 .home-paragraph {
