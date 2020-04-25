@@ -2,22 +2,22 @@ import React from "react";
 import { BottomNavigation, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   footer: {
     fontFamily: "Source Sans Pro",
     position: "fixed",
     bottom: "0",
     width: "100%",
-    height: "2%",
+    height: "3%",
     backgroundColor: "#3f51b5"
   },
   text: {
     fontFamily: "Source Sans Pro",
-    fontSize: ".75rem",
+    fontSize: "1rem",
     color: "#000",
-    padding: ".75px"
+    [theme.breakpoints.down("sm")]: { fontSize: ".75rem", paddingTop: "3px" },
   }
-});
+}));
 
 const Footer = () => {
   const classes = useStyles();
