@@ -108,6 +108,13 @@
   margin-left: 20px;
 }
 
+@media screen and (max-width: 960px) {
+  .about-paragraph {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #home-btn {
     display: none;
@@ -139,7 +146,6 @@
   .about-paragraph {
     font-size: 1rem;
     line-height: 1.5rem;
-    padding: 2.5%;
   }
 
   .student-artco-right {
