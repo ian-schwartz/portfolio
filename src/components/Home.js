@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down("sm")]: { fontSize: "2rem" },
     transition: "transform .3s",
     "&:hover": {
-      transform: "scale(1.5)",
+      transform: "scale(1.125)",
       color: "#342056"
     }
   }

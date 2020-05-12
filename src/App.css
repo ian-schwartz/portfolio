@@ -14,11 +14,11 @@
   font-size: 4.5rem;
   color: #3F51B5;
   margin: 5% 0;
-  transition: transform .6s;
+  transition: transform .5s;
 }
 
 .heading:hover {
-    transform: scale(1.25);
+    transform: scale(1.125);
     color: #342056;
 }
 
