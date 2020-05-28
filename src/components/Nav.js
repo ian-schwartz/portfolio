@@ -39,6 +39,7 @@ const Nav = () => {
               href="https://resume.creddle.io/resume/bbjuttd019o"
               className={classes.link}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <span>
                 <Button className={classes.button}>Resume</Button>

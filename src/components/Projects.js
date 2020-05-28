@@ -31,6 +31,7 @@ const Projects = () => {
               <a
                 href="https://www.github.com/ian-schwartz"
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 Github
