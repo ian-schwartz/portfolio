@@ -43,12 +43,17 @@ const Home = () => {
           </p>
         </Typist>
         <br />
-        <a href="https://www.github.com/ian-schwartz" target="_blank">
+        <a
+          href="https://www.github.com/ian-schwartz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <GitHubIcon color="primary" className={classes.iconLink} />
         </a>
         <a
           href="https://www.linkedin.com/in/ian-schwartz-277bb857/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <LinkedInIcon color="primary" className={classes.iconLink} />
         </a>
