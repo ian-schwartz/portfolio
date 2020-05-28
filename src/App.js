@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'react-typist/dist/Typist.css';
 import { Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
