@@ -10,12 +10,14 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: "3%",
     backgroundColor: "#3f51b5",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
   },
   text: {
     fontFamily: "Source Sans Pro",
     fontSize: "1rem",
     color: "#000",
-    padding: ".4rem",
     [theme.breakpoints.down("sm")]: { fontSize: ".75rem" },
   },
 }));
