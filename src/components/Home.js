@@ -34,8 +34,8 @@ const Home = () => {
         <img src={png} className="home-png" alt="Technologist Emoji" />
         <br />
         <Typist
-          startDelay={1800}
-          avgTypingDelay={75}
+          startDelay={2000}
+          avgTypingDelay={60}
           className="home-paragraph"
         >
           <p className="home-paragraph">
