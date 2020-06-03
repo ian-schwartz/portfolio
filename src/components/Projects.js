@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import artco from "../assets/laptop-macbook-pro-studentartco.png";
 import parkpassport from "../assets/laptop-macbook-pro-park-passport.png";
 import wanderlust from "../assets/laptop-macbook-pro-computer-wanderlust.png";
+import imagegallery from "../assets/laptop-macbook-pro-image-gallery.png";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
@@ -12,8 +13,8 @@ const useStyles = makeStyles({
     color: "primary",
     variant: "outlined",
     fontSize: "1rem",
-    margin: "5% 3%"
-  }
+    margin: "5% 3%",
+  },
 });
 
 const Projects = () => {
@@ -174,6 +175,45 @@ const Projects = () => {
               >
                 Code
               </Button>
+            </div>
+          </div>
+          <div className="image-gallery">
+            <div className="image-gallery-left">
+              <h2 className="project-title">4K Image Gallery</h2>
+              <p className="about-paragraph">
+                4K Image Gallery is a web application which utilizes the
+                Unsplash API. Users can search and browse 1000's of high
+                resolution images. It is fully responsive and contains features
+                aimed to opitimize user interaction and experience. Ian built
+                this frontend application as a personal project.
+                <br /> <br />
+                Tech Stack: React, React Bootstrap, Sass, Axios
+              </p>
+              <Button
+                className={classes.button}
+                color="primary"
+                variant="outlined"
+                href="https://4kimagegallery.netlify.app/"
+                target="_blank"
+              >
+                Visit
+              </Button>{" "}
+              <Button
+                className={classes.button}
+                color="primary"
+                variant="outlined"
+                href="https://github.com/ian-schwartz/image-gallery"
+                target="_blank"
+              >
+                Code
+              </Button>
+            </div>
+            <div className="4k-image-gallery-right">
+              <img
+                src={imagegallery}
+                className="project-img"
+                alt="laptop displaying 4k gallery site"
+              />
             </div>
           </div>
         </div>
