@@ -63,7 +63,7 @@
 .project-wrap {
   display: flex;
   justify-content: space-evenly;
-  margin: 5% 3% 5% 3%;
+  margin: 3% 3% 5% 3%;
 }
 
 .student-artco {
@@ -115,6 +115,17 @@
 .park-passport-right {
   max-width: 400px;
   margin-left: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 7% 0;
+}
+
+.image-gallery-left {
+  max-width: 400px;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 960px) {
