@@ -2,6 +2,17 @@ import React from "react";
 import Nav from "./Nav";
 import photo from "../assets/IMG_1604.jpg";
 import Footer from "./Footer";
+import { ReactComponent as HTML5 } from "../assets/tech-skills/html-5.svg";
+import { ReactComponent as CSS3 } from "../assets/tech-skills/css-5.svg";
+import { ReactComponent as Less } from "../assets/tech-skills/less.svg";
+import { ReactComponent as Sass } from "../assets/tech-skills/sass-1.svg";
+import { ReactComponent as JS } from "../assets/tech-skills/javascript.svg";
+import { ReactComponent as Python } from "../assets/tech-skills/python-3.svg";
+import { ReactComponent as ReactLogo } from "../assets/tech-skills/react.svg";
+import { ReactComponent as Redux } from "../assets/tech-skills/redux.svg";
+import { ReactComponent as Node } from "../assets/tech-skills/nodejs.svg";
+import { ReactComponent as GraphQL } from "../assets/tech-skills/graphql.svg";
+import { ReactComponent as Git } from "../assets/tech-skills/git.svg";
 
 const About = () => {
   return (
@@ -22,11 +33,28 @@ const About = () => {
             the past year, Ian has built a variety of projects both individually
             and within teams, working with developers across various
             disciplines.
-            <br />
-            <br />
-            Technical Skills: HTML5, CSS3, Javascript, Python, Less, Sass,
-            React, Redux, Node.js, REST, Express, GraphQL, Git
           </p>
+          <br />
+
+          <p
+            className="about-paragraph"
+            style={{ textDecoration: "underline" }}
+          >
+            Technical Skills
+          </p>
+
+          <br />
+          <HTML5 className="tech-logo" />
+          <CSS3 className="tech-logo" />
+          <Less className="tech-logo" />
+          <Sass className="tech-logo" />
+          <JS className="tech-logo" />
+          <Python className="tech-logo" />
+          <ReactLogo className="tech-logo" />
+          <Redux className="tech-logo" />
+          <Node className="tech-logo" />
+          <GraphQL className="tech-logo" />
+          <Git className="tech-logo" />
         </div>
         <img src={photo} className="about-img" alt="Ian" />
       </div>
