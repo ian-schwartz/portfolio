@@ -40,13 +40,13 @@
 .about-img {
   max-height: 500px;
   border-radius: 30px;
-  margin: 7% 0 0 7%;
+  margin: 9% 0 0 7%;
 }
 
 .about-wrap {
   display: flex;
   justify-content: space-evenly;
-  margin: 5% 10%;
+  margin: 3% 10% 5% 10%;
 }
 
 .about-paragraph {
@@ -58,6 +58,12 @@
 
 .about-paragraph em {
   font-style: italic;
+}
+
+.tech-logo {
+  height: 6rem;
+  width: 5rem;
+  margin: 1rem;
 }
 
 .project-wrap {
@@ -149,6 +155,11 @@
     margin-left: 20%;
     margin-bottom: 5%;
     border-radius: 15%;
+  }
+
+  .tech-logo {
+    height: 4.5rem;
+    width: 3.5rem;
   }
 
   .home-png {
