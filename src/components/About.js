@@ -7,7 +7,7 @@ import { ReactComponent as CSS3 } from "../assets/tech-skills/css-5.svg";
 import { ReactComponent as Less } from "../assets/tech-skills/less.svg";
 import { ReactComponent as Sass } from "../assets/tech-skills/sass-1.svg";
 import { ReactComponent as JS } from "../assets/tech-skills/javascript.svg";
-import { ReactComponent as Python } from "../assets/tech-skills/python-3.svg";
+import { ReactComponent as Python } from "../assets/tech-skills/python-4.svg";
 import { ReactComponent as ReactLogo } from "../assets/tech-skills/react.svg";
 import { ReactComponent as Redux } from "../assets/tech-skills/redux.svg";
 import { ReactComponent as Node } from "../assets/tech-skills/nodejs.svg";

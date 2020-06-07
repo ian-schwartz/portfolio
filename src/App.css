@@ -147,14 +147,13 @@
   }
 
   .about-wrap {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .about-img {
     width: 60%;
     margin-left: 20%;
     margin-bottom: 5%;
-    border-radius: 15%;
   }
 
   .tech-logo {
