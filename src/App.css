@@ -66,6 +66,14 @@
   margin: 1rem;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 2rem; */
+}
+
 .project-wrap {
   display: flex;
   justify-content: space-evenly;
