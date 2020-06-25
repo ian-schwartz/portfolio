@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   button: {
     fontSize: "1.25rem",
     margin: "0 .25rem",
-    [theme.breakpoints.down("sm")]: { fontSize: "1rem", margin: "0 .125rem" },
+    [theme.breakpoints.down("sm")]: { fontSize: ".75rem", margin: "0 .125rem" },
   },
 }));
 
@@ -45,6 +45,9 @@ const Nav = () => {
                 <Button className={classes.button}>Resume</Button>
               </span>
             </a>
+            <Link to="/contact" className={classes.link}>
+              <Button className={classes.button}>Contact</Button>
+            </Link>
             <Link to="/projects" className={classes.link}>
               <Button
                 color="primary"

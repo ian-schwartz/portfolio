@@ -184,8 +184,8 @@ const Projects = () => {
                 4K Image Gallery is a web application which utilizes the
                 Unsplash API. Users can search and browse 1000's of high
                 resolution images. It is fully responsive and contains features
-                aimed to opitimize user interaction and experience. Ian built
-                this frontend application as a personal project.
+                aimed to optimize user interaction and experience. Ian built
+                this front end application as a personal project.
                 <br /> <br />
                 Tech Stack: React, React Bootstrap, Sass, Axios
               </p>
