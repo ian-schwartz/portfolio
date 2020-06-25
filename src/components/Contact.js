@@ -20,7 +20,7 @@ const Contact = () => {
       <div className="project-text">
         <h2>Drop me a line and I'll respond as soon as possible!</h2>
       </div>
-      <form className="contact" action="POST" data-netlify="true">
+      <form className="contact" name="contact" netlify>
         <OutlinedInput
           name="name"
           placeholder="Name"
@@ -45,10 +45,10 @@ const Contact = () => {
         <Button
           variant="contained"
           color="primary"
-          type="sumbit"
+          type="submit"
           style={{ margin: "1.5rem" }}
         >
-          Submit
+          Send
         </Button>
       </form>
     </div>
