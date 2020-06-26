@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "Source Sans Pro",
     fontSize: "1rem",
     color: "#000",
-    [theme.breakpoints.down("sm")]: { fontSize: ".75rem" },
+    [theme.breakpoints.down("sm")]: { fontSize: ".725rem" },
   },
 }));
 
