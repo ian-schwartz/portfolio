@@ -20,7 +20,8 @@ const Contact = () => {
       <div className="project-text">
         <h2>Drop me a line and I'll respond as soon as possible!</h2>
       </div>
-      <form className="contact" name="contact" netlify>
+      <form className="contact" method="post">
+        <input type="hidden" name="form-name" value="contact" />
         <OutlinedInput
           name="name"
           placeholder="Name"
@@ -29,6 +30,7 @@ const Contact = () => {
         ></OutlinedInput>
         <OutlinedInput
           name="email"
+          type="email"
           placeholder="Your Email Address"
           required={true}
           className={classes.OutlinedInput}
