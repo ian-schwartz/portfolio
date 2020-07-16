@@ -8,7 +8,7 @@ import { ReactComponent as Less } from "../assets/tech-skills/less.svg";
 import { ReactComponent as Sass } from "../assets/tech-skills/sass-1.svg";
 import { ReactComponent as JS } from "../assets/tech-skills/javascript.svg";
 import { ReactComponent as Python } from "../assets/tech-skills/python-4.svg";
-import { ReactComponent as ReactLogo } from "../assets/tech-skills/react.svg";
+import { ReactComponent as ReactLogo } from "../assets/tech-skills/react-2.svg";
 import { ReactComponent as Redux } from "../assets/tech-skills/redux.svg";
 import { ReactComponent as Node } from "../assets/tech-skills/nodejs.svg";
 import { ReactComponent as GraphQL } from "../assets/tech-skills/graphql.svg";
@@ -23,16 +23,16 @@ const About = () => {
           <h1 className="heading">ABOUT ME.</h1>
           <p className="about-paragraph">
             After graduating with a bachelor's degree in Communication Studies
-            from Colorado State University, Ian enjoyed success as a
-            professional poker player. In his time playing, he built valuable
-            skills in problem solving and analytical thinking. His passion for
-            technology eventually led to becoming engrossed in the world of web
-            development. Ian takes pride in being a dedicated and reliable team
-            player, who thrives in collaborative environments and has a strong
-            will to discover the best solution to the problem being faced. Over
-            the past year, Ian has built a variety of projects both individually
-            and within teams, working with developers across various
-            disciplines.
+            from Colorado State University, I enjoyed success as a professional
+            poker player. As a player, I built valuable skills in problem
+            solving and analytical thinking. My passion for technology
+            eventually led me to web development, a skill which allows me to
+            realize my creative potential while making an impact. <br />
+            <br /> Over the past year, I have built a variety of projects both
+            individually and within teams, working with developers across
+            various disciplines. I take pride in being a dedicated and reliable
+            team player with a strong will to discover the best solution to the
+            problem being faced.
           </p>
           <br />
 

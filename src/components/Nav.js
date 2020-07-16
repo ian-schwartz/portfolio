@@ -10,6 +10,10 @@ const useStyles = makeStyles((theme) => ({
   link: {
     textDecoration: "none",
   },
+  appBar: {
+    position: "sticky",
+    backgroundColor: "#fcfdfd",
+  },
   button: {
     fontSize: "1.25rem",
     margin: "0 .25rem",
@@ -22,7 +26,7 @@ const Nav = () => {
   const classes = useStyles();
   return (
     <>
-      <AppBar position="sticky" color="inherit">
+      <AppBar className={classes.appBar}>
         <Toolbar className="nav-container">
           <Link to="/">
             <CodeIcon color="primary" fontSize="large" />
