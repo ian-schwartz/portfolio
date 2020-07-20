@@ -39,7 +39,7 @@ const Home = () => {
           className="home-paragraph"
         >
           <p className="home-paragraph">
-            Hi! My name is Ian Schwartz, and I am a full stack web developer.
+            Hi! My name is Ian Schwartz and I am a full stack web developer.
           </p>
         </Typist>
         <br />

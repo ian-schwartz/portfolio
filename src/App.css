@@ -23,6 +23,7 @@
 }
 
 .home-png {
+  height: 8.5rem;
   transition: transform 0.5s;
 }
 
@@ -32,7 +33,7 @@
 
 .home-paragraph {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "Source Sans Pro", sans-serif;
   margin: 2.5rem 0;
 }
