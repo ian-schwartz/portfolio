@@ -15,7 +15,7 @@ browserHistory.listen((location) => {
   ReactGA.pageview(location.pathname + location.search);
 });
 
-function App() {
+const App = () => {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
