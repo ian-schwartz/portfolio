@@ -22,7 +22,12 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1.25rem",
     margin: "0 .25rem",
     [theme.breakpoints.down("sm")]: { fontSize: "1rem", margin: "0 .125rem" },
-    [theme.breakpoints.down("xs")]: { fontSize: ".725rem", margin: "0" },
+    // [theme.breakpoints.down("xs")]: { fontSize: ".725rem", margin: "0" },
+  },
+  menu: {
+    "& .MuiPaper-root": {
+      backgroundColor: "rgba(255,255,255, 0.8)",
+    },
   },
 }));
 
@@ -55,11 +60,13 @@ const Nav = () => {
               <MenuIcon color='primary' fontSize='large' />
             </Button>
             <Menu
+              className={classes.menu}
               id='simple-menu'
               anchorEl={anchorEl}
               keepMounted
               open={Boolean(anchorEl)}
               onClose={handleClose}
+              color='primary'
             >
               <MenuItem onClick={handleClose}>
                 {" "}
