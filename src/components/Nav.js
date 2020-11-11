@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menu: {
     "& .MuiPaper-root": {
-      backgroundColor: "rgba(255,255,255, 0.8)",
+      backgroundColor: "rgba(255,255,255, 0.9)",
     },
   },
 }));
