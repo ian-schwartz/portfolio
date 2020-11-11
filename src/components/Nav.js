@@ -22,7 +22,6 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1.25rem",
     margin: "0 .25rem",
     [theme.breakpoints.down("sm")]: { fontSize: "1rem", margin: "0 .125rem" },
-    // [theme.breakpoints.down("xs")]: { fontSize: ".725rem", margin: "0" },
   },
   menu: {
     "& .MuiPaper-root": {
