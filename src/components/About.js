@@ -28,8 +28,8 @@ const About = () => {
             solving and analytical thinking. My passion for technology
             eventually led me to web development, a skill which allows me to
             realize my creative potential while making an impact. <br />
-            <br /> Over the past year, I have built a variety of projects both
-            individually and within teams, working with developers across
+            <br /> Over the past few years, I have built a variety of projects both
+            individually and within teams, working with team members across
             various disciplines. I take pride in being a dedicated and reliable
             team player with a strong will to discover the best solution to the
             problem being faced.

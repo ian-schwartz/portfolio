@@ -24,11 +24,13 @@ const useStyles = makeStyles((theme) => ({
 
 const Footer = () => {
   const classes = useStyles();
+  const date = new Date();
+  let year = date.getFullYear();
   return (
     <>
       <BottomNavigation className={classes.footer}>
         <Typography className={classes.text}>
-          Copyright &copy; 2020 Ian Schwartz
+          Copyright &copy; {year} Ian Schwartz
         </Typography>
       </BottomNavigation>
     </>
