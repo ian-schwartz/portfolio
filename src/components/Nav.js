@@ -75,7 +75,7 @@ const Nav = () => {
               </MenuItem>
               <MenuItem onClick={handleClose}>
                 <a
-                  href='https://resume.creddle.io/resume/bbjuttd019o'
+                  href='/assets/docs/Ian-Schwartz-Resume.pdf'
                   className={classes.link}
                   target='_blank'
                   rel='noopener noreferrer'
